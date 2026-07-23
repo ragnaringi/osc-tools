@@ -1,5 +1,5 @@
 {
-  "name": "osc-tools",
+  "name": "@ragnaringi/osc-tools",
   "version": "0.1.0",
   "description": "Command-line OSC tools for sending and receiving Open Sound Control messages",
   "type": "module",
