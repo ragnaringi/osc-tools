@@ -1,0 +1,37 @@
+{
+  "name": "osc-tools",
+  "version": "0.1.0",
+  "description": "Command-line OSC tools for sending and receiving Open Sound Control messages",
+  "type": "module",
+  "bin": {
+    "oscsend": "./src/oscsend.js",
+    "oscreceive": "./src/oscreceive.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "osc",
+    "open-sound-control",
+    "midi",
+    "audio",
+    "music",
+    "touchosc",
+    "control"
+  ],
+  "author": "Ragnar Hrafnkelsson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ragnaringi/osc-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ragnaringi/osc-tools/issues"
+  },
+  "homepage": "https://github.com/ragnaringi/osc-tools#readme",
+  "dependencies": {
+    "osc": "^2.4.5"
+  }
+}
